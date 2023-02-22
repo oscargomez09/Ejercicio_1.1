@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="0"
+        android:textColor="#0A1C55"
+        android:textColorLink="#0A1E8A"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Ingrese un numero"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Ingrese un numero"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sumar"
+        android:textSize="20sp"
+        app:backgroundTint="#386EBD"
+        app:iconTint="#2DB8F6" />
+
+    <Button
+        android:id="@+id/btnrestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Restar"
+        android:textSize="20sp"
+        app:backgroundTint="#386EBD"
+        app:iconTint="#2DB8F6" />
+
+    <Button
+        android:id="@+id/btnmultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Multiplicar"
+        android:textSize="20sp"
+        app:backgroundTint="#386EBD"
+        app:iconTint="#2DB8F6" />
+
+    <Button
+        android:id="@+id/btndividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dividir"
+        android:textSize="20sp"
+        app:backgroundTint="#386EBD"
+        app:iconTint="#2DB8F6" />
+</LinearLayout>
